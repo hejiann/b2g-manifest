@@ -2,7 +2,8 @@
 <manifest>
 
   <remote name="aosp" fetch="https://android.googlesource.com/"/>
-  <remote name="b2g" fetch="https://git.mozilla.org/b2g"/>
+  <remote name="b2g" fetch="https://github.com/mozilla-b2g/"/>
+  <remote name="github" fetch="https://github.com/"/>
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
@@ -90,13 +91,7 @@
   <project path="system/netd" name="platform/system/netd" revision="3c903b555975fa59d6688a0a6417ac7512c202e7"/>
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
 
-  <!-- Emulator specific things -->
-  <project path="development" name="platform/development" revision="435a7da6d02083ba6583e1654db351991cf79578"/>
-  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="764d33d301b1363970a2aefd4dbb6766baeb62f7"/>
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0"/>
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="7c7ca5eac957b10a19475c1f82b5189e7438d40d"/>
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="44b5e548c030d80548d201731e57d71892c51934"/>
-  <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f"/>
+  <!-- Huawei u8860 specific things -->
+  <project path="device/huawei/u8860" name="hejiann/android-device-huawei-u8860" revision="ics"/>
 
 </manifest>
