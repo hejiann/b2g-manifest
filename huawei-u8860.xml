@@ -7,7 +7,7 @@
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
-  <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
+  <default revision="refs/tags/android-4.0.4_r1.2" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="b2g" revision="7cb46499e0b91ca20f6aed58d6067d7c451875b9" upstream="v1-train">
@@ -92,6 +92,6 @@
   <project path="system/vold" name="platform/system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d"/>
 
   <!-- Huawei u8860 specific things -->
-  <project path="device/huawei/u8860" name="hejiann/android_device_huawei_u8860" revision="ics"/>
+  <project path="device/huawei/u8860" name="hejiann/android_device_huawei_u8860" remote="github" revision="ics"/>
 
 </manifest>
